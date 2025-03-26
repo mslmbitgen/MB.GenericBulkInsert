@@ -13,9 +13,9 @@
 </Description>
     <Copyright>© 2025 Müslüm Bitgen. All rights reserved.</Copyright>
     <PackageProjectUrl>www.muslumbitgen.com</PackageProjectUrl>
-    <PackageIcon>mb2.png</PackageIcon>
+    <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/mslmbitgen/MB.Result/blob/master/MB.Result/README.md</RepositoryUrl>
+    <RepositoryUrl>https://github.com/mslmbitgen/MB.GenericBulkInsert/blob/master/README.md</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReleaseNotes>- Added the **MB.GenericBulkInsert** library for efficient bulk data insertion using Entity Framework Core.
 - Supports SQL Server databases for bulk insert operations.
@@ -33,7 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="mb2.png">
+    <None Update="icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

@@ -94,7 +94,7 @@ The **MB.GenericBulkInsert** library is licensed under the **MIT License**.
 ## **🌍 Links**
 
 - **NuGet Page**: [NuGet](https://www.nuget.org/packages/MB.GenericBulkInsert)
-- **GitHub Repo**: [GitHub](https://github.com/your-username/MB.GenericBulkInsert)
+- **GitHub Repo**: [GitHub](https://github.com/mslmbitgen/MB.GenericBulkInsert)
 
 ## **🙌 Contributing**
 
