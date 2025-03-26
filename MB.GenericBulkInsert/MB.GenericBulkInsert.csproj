@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>EFCore.BulkInsertExtensions</Title>
+    <Version>9.0.3</Version>
+    <Authors>Müslüm Bitgen</Authors>
+    <Company>Müslüm Bitgen</Company>
+    <Description>A generic bulk insert library for .NET, designed to efficiently handle large-scale data inserts with Entity Framework Core. This package provides an easy-to-use extension method to perform bulk inserts into SQL Server databases, optimizing performance by supporting configurable batch sizes for mass data operations.
+</Description>
+    <Copyright>© 2025 Müslüm Bitgen. All rights reserved.</Copyright>
+    <PackageProjectUrl>www.muslumbitgen.com</PackageProjectUrl>
+    <PackageIcon>mb2.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/mslmbitgen/MB.Result/blob/master/MB.Result/README.md</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>- Added the **MB.GenericBulkInsert** library for efficient bulk data insertion using Entity Framework Core.
+- Supports SQL Server databases for bulk insert operations.
+- Provides an easy-to-use extension method for bulk inserting large datasets with configurable batch sizes.
+- Optimized for performance in mass data operations</PackageReleaseNotes>
+    <PackageTags>EntityFrameworkCore BulkInsert EFCore SQLServer BulkOperations DataInsertion DotNet DatabaseOptimization Performance MassDataInsert</PackageTags>
+    <NeutralLanguage>tr-TR</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="mb2.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
